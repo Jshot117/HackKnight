@@ -8,13 +8,14 @@ export function HomePage() {
         <>
             <Header />
             <div className="min-h-screen bg-gradient-to-br from-blue-100 to-yellow-200 flex flex-col items-center justify-center">
-                <img
-                    src={SwordLogo}
-                    alt="SwordLogo"
-                    className="w-1/3 md:w-1/6 p-2"
-                />
-                <div className="flex flex-col md:flex-row gap-5">
+
+                <div className="flex flex-col md:flex-row gap-5 items-center">
                     <Banner />
+                    <img
+                        src={SwordLogo}
+                        alt="SwordLogo"
+                        className="w-1/3 h-auto max-w-full md:w-1/6 p-2"
+                    />
                     <CountDownTimer />
                 </div>
             </div>
