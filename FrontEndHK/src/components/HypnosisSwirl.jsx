@@ -2,12 +2,12 @@ import React from "react";
 
 const HypnosisSwirl = () => {
   return (
-    <div className="flex justify-center items-center h-screen bg-black">
+    <div className="flex justify-center items-center h-1/2 bg-black">
       <div
         style={{
           width: "50%",
           height: 0,
-          paddingBottom: "100%",
+          paddingBottom: "50%",
           position: "relative",
         }}
       >

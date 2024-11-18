@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 export function Header() {
     return (
-        <header className="bg-gradient-to-r from-purple-700 via-indigo-800 to-purple-900 p-4 shadow-lg">
-            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+        <header className="p-4 shadow-lg">
+            <div className="container mx-auto flex flex-col md:flex-row justify-evenly items-center">
                 {/* Logo and Title */}
                 <div className="flex items-center space-x-4">
                     <img

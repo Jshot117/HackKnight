@@ -1,16 +1,17 @@
 import { Header } from '../components/Header.jsx';
-import HypnosisSwirl from '../components/HypnosisSwirl.jsx';
+import { Banner } from '../components/Banner.jsx';
+import { CountDownTimer } from '../components/CountDownTimer.jsx';
 
 export function HomePage() {
     return (
-        <div >
+        <>
             <Header />
-            <h1>Welcome to the Home Page</h1>
-            <p>This is the Home Page of the FrontEndHK application.</p>
-            <div className = "flex-col ">
-                <h1 className = "text-5xl">You Think I am COOL</h1>
-                <HypnosisSwirl />
+            <div className="min-h-screen bg-gradient-to-br from-blue-100 to-yellow-200 flex flex-col items-center justify-center">
+                <div className="flex flex-col md:flex-row gap-5">
+                    <Banner />
+                    <CountDownTimer />
+                </div>
             </div>
-        </div>
+        </>
     )
 }
