@@ -1,5 +1,6 @@
 import { Header } from '../components/Header';
 
+//Currently Unused Page
 export function PrizesPage() {
     return (
         <div>

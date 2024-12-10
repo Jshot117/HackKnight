@@ -1,7 +1,7 @@
 import { Header } from '../components/Header.jsx';
-
 import HypnosisSwirl from '../components/HypnosisSwirl.jsx';
 
+//Currently Unused Page
 export function AboutPage() {
     return (
         <div>
