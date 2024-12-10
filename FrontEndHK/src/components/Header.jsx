@@ -22,13 +22,16 @@ export function Header() {
                 <nav className="mt-4 md:mt-0">
                     <ul className="flex space-x-6 text-gray-300 text-lg font-semibold">
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
-                            <Link to={'/about'}>About</Link>
+                            <Link to={'/FAQ'}>FAQ</Link>
                         </li>
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
                             <Link to={'/schedule'}>schedule</Link>
                         </li>
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
-                            <Link to={'/prizes'}>prizes</Link>
+                            <Link to={'/sponsors'}>Sponsors</Link>
+                        </li>
+                        <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
+                            <Link to={'/our team'}>Our Team</Link>
                         </li>
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
                             <Link to={'/register'}>register</Link>
