@@ -1,5 +1,6 @@
 import { Header } from '../components/Header.jsx';
 import { Banner } from '../components/Banner.jsx';
+import { Footer } from '../components/Footer.jsx';
 import { CountDownTimer } from '../components/CountDownTimer.jsx';
 import SwordLogo from "../assets/sword_hack_knight_transparentBG.png";
 
@@ -19,6 +20,7 @@ export function HomePage() {
                     <CountDownTimer />
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
