@@ -13,7 +13,7 @@ export function Banner() {
         Unlocking The Potential Of Tech.
       </p>
       <p className="mt-2 text-2xl font-semibold text-gray-800 text-center">
-        February 7th - 9th, 2025
+        March 7th - 9th, 2025
       </p>
     </div>
   );

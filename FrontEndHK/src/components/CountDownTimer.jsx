@@ -5,7 +5,7 @@ export function CountDownTimer() {
   return (
     <div className="flex flex-col items-center">
       <Countdown
-        date={new Date("2025-02-07T16:00:00")}
+        date={new Date("2025-03-07T16:00:00")}
         renderer={({ days, hours, minutes, seconds }) => (
           <div className="flex space-x-4">
             <div className="bg-black text-white text-center rounded-lg p-4 shadow-md">
