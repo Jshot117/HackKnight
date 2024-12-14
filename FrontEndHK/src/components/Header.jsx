@@ -25,16 +25,16 @@ export function Header() {
                             <Link to={'/FAQ'}>FAQ</Link>
                         </li>
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
-                            <Link to={'/schedule'}>schedule</Link>
-                        </li>
-                        <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
-                            <Link to={'/sponsors'}>Sponsors</Link>
+                            <Link to={'/schedule'}>Schedule</Link>
                         </li>
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
                             <Link to={'/our team'}>Our Team</Link>
                         </li>
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
-                            <Link to={'/register'}>register</Link>
+                            <Link to={'/sponsors'}>Sponsors</Link>
+                        </li>
+                        <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
+                            <Link to={'/register'}>Register</Link>
                         </li>
                     </ul>
                 </nav>
