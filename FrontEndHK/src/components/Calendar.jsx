@@ -10,8 +10,8 @@ export function Calendar() {
                 initialView="timeGrid"
                 hiddenDays={[1, 2, 3, 4]} // Hide Monday-Thursday
                 visibleRange={{
-                    start: "2025-02-07", // Start on Friday (Feb 7, 2025)
-                    end: "2025-02-10",   // End after Sunday (non-inclusive Monday)
+                    start: "2025-03-07", // Start on Friday (Feb 7, 2025)
+                    end: "2025-03-10",   // End after Sunday (non-inclusive Monday)
                 }}
                 views={{
                     timeGridFourDay: {
@@ -20,9 +20,9 @@ export function Calendar() {
                     },
                 }}
                 events={[
-                    { title: "Day One", start: "2025-02-07" },
-                    { title: "Day Two", start: "2025-02-08" },
-                    { title: "Day Three", start: "2025-02-09" },
+                    { title: "Day One", start: "2025-03-07" },
+                    { title: "Day Two", start: "2025-03-08" },
+                    { title: "Day Three", start: "2025-03-09" },
                 ]}
                 headerToolbar={{
                     left: "",
