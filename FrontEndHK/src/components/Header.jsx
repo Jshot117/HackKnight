@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 export function Header() {
     return (
-        <header className="p-4 shadow-lg">
-            <div className="container mx-auto flex flex-col md:flex-row justify-evenly items-center">
+        <div className="p-4 shadow-lg">
+            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
                 {/* Logo and Title */}
                 <div className="flex items-center space-x-4">
                     <img
@@ -20,7 +20,7 @@ export function Header() {
 
                 {/* Navigation */}
                 <nav className="mt-4 md:mt-0">
-                    <ul className="flex space-x-6 text-gray-300 text-lg font-semibold">
+                    <ul className="flex space-x-4 md:space-x-6 text-gray-300 text-lg font-semibold">
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
                             <Link to={'/FAQ'}>FAQ</Link>
                         </li>
@@ -39,6 +39,6 @@ export function Header() {
                     </ul>
                 </nav>
             </div>
-        </header>
+        </div>
     );
 }
