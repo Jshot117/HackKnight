@@ -3,9 +3,9 @@ import { Calendar } from '../components/Calendar.jsx';
 
 export function SchedulePage() {
     return (
-        <div>
+        <>
             <Header />
             <Calendar />
-        </div>
+        </>
     )
 }
