@@ -33,7 +33,7 @@ export function HomePage() {
                             </div>
                             <div className="text-center max-w-xs md:max-w-xl">
                                 <h1 className="mb-2 text-center text-3xl md:text-5xl">
-                                    Welcome To Hack Knight 2025
+                                    Welcome To our Spring Hack Knight 
                                 </h1>
                                 <p className="text-sm md:text-xl text-clip overflow-hidden">
                                     Hack Knight is a 48-hour hackathon where students from all over the world come together to create innovative projects. This year, we are excited to announce that we are partnering with Code For All to bring you an even bigger and better event. Join us for a weekend of coding, learning, and fun!
