@@ -10,7 +10,7 @@ export function Register() {
                         Join an oppurtunity to learn and grow with us!
                     </h1>
                 </div>
-                <div className="md:ml-6 border-black border-5 bg-black p-5 text-white rounded-lg">
+                <div className="md:ml-6 border-black border-5 bg-black m-2 p-5 text-white rounded-lg">
                     <Link to={"/register"} className="md:text-xl"> REGISTER NOW </ Link>
                 </div>  
             </div>
