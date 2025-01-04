@@ -34,7 +34,9 @@ export function Header() {
                             <Link to={'/sponsors'}>Sponsors</Link>
                         </li>
                         <li className="hover:text-gold-400 transform hover:scale-105 duration-200">
-                            <Link to={'/register'}>Register</Link>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6cIO6YuTWfyfUZHcJx7c3UiRbZrRPaRJYRRusfFSgCDSVQ/viewform?usp=header">
+                                <button> Register </button>
+                            </a>
                         </li>
                     </ul>
                 </nav>
