@@ -25,7 +25,7 @@ export function HomePage() {
                         </div>
                         <Register />
                     </div>
-                    <div className="flex flex-col md:flex-row items-center ">
+                    <div className="flex flex-col mb-10 md:mb-20 md:flex-row items-center ">
                         <div className="justify-items-center md:flex ">
                             <div className="flex gap-4">
                                 <img className="object-fill max-w-32 md:max-w-none md:w-2/6 rounded-3xl" src={logo} alt="Logo" />
