@@ -16,18 +16,19 @@ export function HomePage() {
         <>
             <Header />
             <div className="min-h-screen bg-gradient-to-br from-blue-100 to-yellow-200 flex flex-col items-center justify-center">
-                <div className="flex flex-col  mt-10">
+                <div className="flex flex-col">
                     <div className="min-h-fit items-center md:mt-32 ">
-                        <div className="flex flex-col md:flex-row mt-10 mb-10 justify-between items-center">
+                        <div className="flex flex-col md:flex-col mt-10 mb-10 justify-between items-center md:space-y-10">
                             <Banner />
-                            <img
+                            {/* <img
                                 src={SwordLogo}
                                 alt="SwordLogo"
                                 className="w-1/3 h-auto max-w-full md:w-1/6 p-2"
-                            />
+                            /> */}
                             <CountDownTimer />
+                            <Register />
                         </div>
-                        <Register />
+                        
                     </div>
                     <div className="flex-row my-10 md:my-32 md:flex-row items-center md:space-y-10 ">
                         <div className="justify-items-center md:flex ">
