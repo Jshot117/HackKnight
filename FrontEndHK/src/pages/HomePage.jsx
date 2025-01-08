@@ -17,7 +17,7 @@ export function HomePage() {
             <Header />
             <div className="min-h-screen bg-gradient-to-br from-blue-100 to-yellow-200 flex flex-col items-center justify-center">
                 <div className="flex flex-col">
-                    <div className="min-h-fit items-center md:mt-32 ">
+                    <div className="min-h-fit items-center mt-32 py-14 md:mt-16 md:py-20 ">
                         <div className="flex flex-col md:flex-col mt-10 mb-10 justify-between items-center md:space-y-10">
                             <Banner />
                             {/* <img
