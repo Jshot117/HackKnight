@@ -1,5 +1,6 @@
 import { Header } from "../components/Header.jsx";
 import {FAQQuestion} from "../components/FAQQuestion.jsx"
+import { Footer } from "../components/Footer.jsx";
 
 export function FAQPage() {
   const faqQuestions = [
@@ -35,6 +36,7 @@ export function FAQPage() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

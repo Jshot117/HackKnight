@@ -1,4 +1,5 @@
 import { Header } from "../components/Header.jsx";
+import { Footer } from "../components/Footer.jsx";
 import TeamMember from "../components/TeamMember.jsx";
 import jonn from "../assets/jonn.jpg";
 import sword from "../assets/sword_hack_knight_transparentBG.png";
@@ -37,6 +38,7 @@ export function OurTeamPage() {
           description="Managing daily operations and optimizing organizational processes."
         />
       </div>
+      <Footer />
     </div>
   );
 }

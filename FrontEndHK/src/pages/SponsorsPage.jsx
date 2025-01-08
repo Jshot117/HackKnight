@@ -1,5 +1,6 @@
 import { Header } from '../components/Header.jsx';
 import SponsorImage from '../assets/Hackathon Sponsor image.png';
+import { Footer } from '../components/Footer.jsx';
 
 export function SponsorsPage() {
     return (
@@ -13,6 +14,7 @@ export function SponsorsPage() {
                     className=" p-2">
                 </img>
             </div>
+            <Footer />
         </div>
     )
 }
