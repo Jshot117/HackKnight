@@ -7,11 +7,11 @@ export function Banner() {
         Hack Knight Spring 2025
       </h1>
       <h2 className="text-4xl font-bold text-red-500 underline underline-offset-4 decoration-4 decoration-pink-500 text-center mt-2">
-        The Future Is Now!
+        Hacking for all!
       </h2>
-      <p className="mt-4 text-lg text-gray-600 text-center">
+      {/* <p className="mt-4 text-lg text-gray-600 text-center">
         Unlocking The Potential Of Tech.
-      </p>
+      </p> */}
       <p className="mt-2 text-2xl font-semibold text-gray-800 text-center">
         March 7th - 9th, 2025
       </p>
