@@ -4,7 +4,7 @@ import timeGridPlugin from '@fullcalendar/timegrid'
 
 export function Calendar() {
     return (
-        <div className = "md:m-10">
+        <div className = "mt-32 py-14 md:mt-16 md:py-20">
             <FullCalendar
                 plugins={[timeGridPlugin]}
                 initialView="timeGrid"

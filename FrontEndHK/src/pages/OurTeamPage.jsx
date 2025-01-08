@@ -7,7 +7,7 @@ export function OurTeamPage() {
   return (
     <div>
       <Header />
-      <div className="relative bg-gradient-to-t from-red-900 to-red-500 text-white text-center py-16 overflow-hidden">
+      <div className="relative bg-gradient-to-t from-red-900 to-red-500 text-white text-center mt-32 py-14 md:mt-16 md:py-20  overflow-hidden">
         <img
           src={sword}
           alt="Sword"
