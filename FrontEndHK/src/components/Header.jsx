@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../assets/logo.png";
+import SwordLogo from "../assets/sword_hack_knight_transparentBG.png";
 import { Link } from 'react-router-dom';
 
 export function Header() {
@@ -9,9 +9,9 @@ export function Header() {
                 {/* Logo and Title */}
                 <div className="flex items-center space-x-4">
                     <img
-                        src={logo}
-                        alt="Logo"
-                        className="w-16 h-16 md:w-24 md:h-24 rounded-full border-2 border-gold-500 shadow-md"
+                        src={SwordLogo}
+                        alt="SwordLogo"
+                        className="w-16 h-auto md:w-24 md:h-auto  "
                     />
                     <h1 className="text-gold-300 font-extrabold text-4xl tracking-wide hover:text-gold-400 transform hover:scale-105 duration-200">
                         <a href={"/"}>Hack Knight</a>
