@@ -11,7 +11,7 @@ export function Header() {
                     <img
                         src={logo}
                         alt="Logo"
-                        className="w-12 h-12 rounded-full border-2 border-gold-500 shadow-md"
+                        className="w-16 h-16 md:w-24 md:h-24 rounded-full border-2 border-gold-500 shadow-md"
                     />
                     <h1 className="text-gold-300 font-extrabold text-4xl tracking-wide hover:text-gold-400 transform hover:scale-105 duration-200">
                         <a href={"/"}>Hack Knight</a>
