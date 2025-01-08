@@ -9,11 +9,12 @@ export function Header() {
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
                 {/* Logo and Title */}
                 <div className="flex items-center space-x-4">
-                    <img
-                        src={SwordLogo}
-                        alt="SwordLogo"
-                        className="w-12 h-12 md:w-14 md:h-14 object-contain"
-                    />
+                    <Link to="/about">
+                        <img
+                            src={SwordLogo}
+                            alt="SwordLogo"
+                            className="w-12 h-12 md:w-14 md:h-14 object-contain"
+                        /></Link>
                     <h1 className="text-white font-extrabold text-3xl md:text-4xl tracking-wide hover:text-yellow-500 transition-all duration-200">
                         <Link to="/">Hack Knight</Link>
                     </h1>
@@ -27,7 +28,7 @@ export function Header() {
                         <NavItem to="/our team" icon={<FaUsers />}>Our Team</NavItem>
                         <NavItem to="/sponsors" icon={<FaHandshake />}>Sponsors</NavItem>
                         <li>
-                            <a 
+                            <a
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6cIO6YuTWfyfUZHcJx7c3UiRbZrRPaRJYRRusfFSgCDSVQ/viewform?usp=header"
                                 className="flex items-center space-x-2 bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-4 py-2 rounded-lg transition-all duration-200 font-semibold"
                                 target="_blank"
@@ -47,7 +48,7 @@ export function Header() {
 
 const NavItem = ({ to, icon, children }) => (
     <li>
-        <Link 
+        <Link
             to={to}
             className="flex items-center space-x-2 text-gray-300 hover:text-yellow-500 transition-all duration-200 font-semibold"
         >
