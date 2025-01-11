@@ -18,7 +18,7 @@ export function OurTeamPage() {
           Meet the Team
         </h1>
       </div>
-      <div className="flex flex-col items-center space-y-4 py-8 ">
+      <div className="flex flex-col items-center space-y-4 py-8 mx-3 md:mx-0">
         {teamData.team.map((member, index) => (
           <TeamMember
             key={index}
