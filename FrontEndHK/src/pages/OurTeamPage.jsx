@@ -1,8 +1,8 @@
 import { Header } from "../components/Header.jsx";
 import { Footer } from "../components/Footer.jsx";
 import TeamMember from "../components/TeamMember.jsx";
-import jonn from "../assets/jonn.jpg";
 import sword from "../assets/sword_hack_knight_transparentBG.png";
+import teamData from "../assets/team.json";
 
 export function OurTeamPage() {
   return (
@@ -19,24 +19,15 @@ export function OurTeamPage() {
         </h1>
       </div>
       <div className="flex flex-col items-center space-y-4 py-8 ">
-        <TeamMember
-          name="Jonnathan Saavedra"
-          role="CEO"
-          image={jonn}
-          description="Leading the team with a vision for innovation and excellence."
-        />
-        <TeamMember
-          name="Jane Doe"
-          role="CTO"
-          image={jonn}
-          description="Overseeing the technology strategy and ensuring the robustness of our systems."
-        />
-        <TeamMember
-          name="John Smith"
-          role="COO"
-          image={jonn}
-          description="Managing daily operations and optimizing organizational processes."
-        />
+        {teamData.team.map((member, index) => (
+          <TeamMember
+            key={index}
+            name={member.name}
+            role={member.position}
+            image={member.image_url}
+            description={member.description}
+          />
+        ))}
       </div>
       <Footer />
     </div>
