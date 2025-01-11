@@ -9,7 +9,7 @@ export const FAQQuestion = ({question, answer}) => {
         <div className = "mb-4">
                 <div className={`max-w-4xl w-full mx-auto p-4 rounded-lg shadow-md bg-gray-100 hover:bg-gray-200 ${isOpen ? 'border-2 border-gray-500' : 'border border-gray-300'}`}>
                     <div className="flex justify-between items-center cursor-pointer font-mono" onClick={() => setIsOpen(!isOpen)}>
-                        <div className="text-black break-normal"> {question}</div>
+                        <div className="text-black break-normal break-keep"> {question}</div>
                         <span>{isOpen ? "▲" : "▼"}</span>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ export const FAQQuestion = ({question, answer}) => {
                             maxHeight: { duration: 0.3, ease: 'easeInOut' },
                             opacity: { duration: 0.3, ease: 'easeInOut' },
                             }}
-                            className="overflow-hidden bg-gray-100 p-4 rounded-md"
+                            className="overflow-hidden bg-gray-100 p-4 rounded-md break-keep"
                         >
                             <p>{answer}</p>
                         </motion.div>
