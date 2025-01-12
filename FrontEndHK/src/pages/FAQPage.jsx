@@ -17,7 +17,7 @@ export function FAQPage() {
   return (
     <div>
       <Header />
-      <div className="flex flex-col  mt-32 py-14 md:mt-16 md:py-20">
+      <div className="min-h-screen flex flex-col  mt-32 py-14 md:mt-16 md:py-20">
         <div className="text-center p-6">
           <h1 className="text-3xl font-bold mb-4">
             Frequently Asked Questions
