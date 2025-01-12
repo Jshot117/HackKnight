@@ -57,22 +57,24 @@ export function HomePage() {
                 </p>
               </div>
             </div>
-            <EventGallery
-              images={[
-                {
-                  src: image1,
-                  caption: "Students working on their project",
-                },
-                {
-                  src: image2,
-                  caption: "Justin Espinal handing over an award",
-                },
-                {
-                  src: image3,
-                  caption: "Wide shot of event at lunch time",
-                },
-              ]}
-            />
+            <div className="flex w-[80%] md:w-[50%] mx-auto flex-col md:flex-row mb-10 md:mb-32 items-center md:space-y-0 space-y-6">
+              <EventGallery
+                images={[
+                  {
+                    src: image1,
+                    caption: "Students working on their project",
+                  },
+                  {
+                    src: image2,
+                    caption: "Justin Espinal handing over an award",
+                  },
+                  {
+                    src: image3,
+                    caption: "Wide shot of event at lunch time",
+                  },
+                ]}
+              />
+            </div>
           </div>
         </div>
       </div>
