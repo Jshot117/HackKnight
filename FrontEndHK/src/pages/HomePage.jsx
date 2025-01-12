@@ -31,7 +31,7 @@ export function HomePage() {
                         
                     </div>
                     <div className="flex-row my-10 md:my-32 md:flex-row items-center md:space-y-10 ">
-                        <div className="flex-col justify-items-center md:flex ">
+                        <div className=" md:flex " style={{ justifyItems: 'center'}}>
                             <div className="flex gap-4">
                                 <img className="object-fill max-w-32 md:max-w-none md:w-2/6 rounded-3xl" src={logo} alt="Logo" />
                                 <img className="object-fill max-w-32 md:max-w-none md:w-2/6  rounded-3xl" src={CodeForAll} alt="CodeForAll" />
