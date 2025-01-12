@@ -17,7 +17,7 @@ export function HomePage() {
             <Header />
             <div className="min-h-screen bg-gradient-to-br from-blue-100 to-yellow-200 flex flex-col items-center justify-center">
                 <div className="flex flex-col">
-                    <div className="min-h-fit items-center mt-32 py-14 md:mt-16 md:py-20 ">
+                    <div className="items-center mt-32 pt-14 md:mt-16 md:pt-20 ">
                         <div className="flex flex-col md:flex-col mt-10 mb-10 justify-between items-center md:space-y-10">
                             <Banner />
                             {/* <img
@@ -30,13 +30,13 @@ export function HomePage() {
                         </div>
                         
                     </div>
-                    <div className="flex-row my-10 md:my-32 md:flex-row items-center md:space-y-10 ">
-                        <div className=" md:flex " style={{ justifyItems: 'center'}}>
-                            <div className="flex gap-4">
+                    <div className="flex-row mb-10 md:mb-32 md:flex-row items-center md:space-y-10 ">
+                        <div className="flex flex-col justify-center items-center">
+                            <div className="flex justify-center gap-1 md:gap-10">
                                 <img className="object-fill max-w-32 md:max-w-none md:w-2/6 rounded-3xl" src={logo} alt="Logo" />
                                 <img className="object-fill max-w-32 md:max-w-none md:w-2/6  rounded-3xl" src={CodeForAll} alt="CodeForAll" />
                             </div>
-                            <div className="text-center max-w-xs md:max-w-xl">
+                            <div className=" justify-center md:mt-3 text-center max-w-xs md:max-w-xl">
                                 <h1 className="mb-2 text-center text-3xl md:text-5xl">
                                     Welcome To our Spring Hack Knight
                                 </h1>
