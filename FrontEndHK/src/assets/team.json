@@ -2,27 +2,27 @@
   "team": [
     {
       "name": "Justin Espinal",
-      "position": "TBD",
+      "position": "Lead Organizer",
       "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQH2uEhaQVsKDw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732151785315?e=1741824000&v=beta&t=Qik_V4jOysRsG8nAYy8HsXV8woH_xtOl6P3EeI6DhFA",
-      "description": "TBD"
+      "description": "Founder of Hack Knight. Handles all logistics for the event leading up and during the event."
     },
     {
       "name": "Jonnathan Saavedra",
-      "position": "TBD",
+      "position": "Lead Engineer/Logistics Organizer",
       "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQHqerwe7ZtAyA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665805855654?e=1741824000&v=beta&t=lYCqZ3VLOmdal0RRYXt04-fbbsT4wgJKOKAgM7X3kUw",
-      "description": "TBD"
+      "description": "Handles all logistics for the event leading up and during the event. Also Handles all engineering aspects for Hack Knight website. "
     },
     {
       "name": "Andrew Martin",
-      "position": "Assistant to Justin",
+      "position": "Assistant Logistics Organizer",
       "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQECAqRsOj_YOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1700968895219?e=1741824000&v=beta&t=x5kq0_d5vlUwqTCanoCeP6IsaoDo9ZAv5naDotxBtX4",
-      "description": "Does everything Justin forgets to do."
+      "description": "Assist in all logistics for the event leading up and during the event."
     },
     {
       "name": "Sophia Yau",
-      "position": "TBD",
+      "position": "Assistant Logistics Organizer",
       "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQFCDrjfnk-jlA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724517034346?e=1741824000&v=beta&t=9dG-2A6FcXUHDgbq-KK6yKXrnodDt0E4V8ViTI9VdgM",
-      "description": "TBD"
+      "description": "Assist in all logistics for the event leading up and during the event."
     },
     {
       "name": "Rakib Shahid",

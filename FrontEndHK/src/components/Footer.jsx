@@ -1,4 +1,5 @@
 import SwordLogo from "../assets/sword_hack_knight_transparentBG.png";
+import { Link } from 'react-router-dom';
 
 export function Footer() {
     return(
@@ -18,7 +19,7 @@ export function Footer() {
                             </h1>
                         </div>
                         <p className="text-gray-300">
-                            Hack Knight is a 48-hour hackathon where students from all over the world come together to create innovative projects. 
+                            Hack Knight is a 36-hour hackathon where students come together to create innovative projects. 
                         </p>
                         <p className="text-sm">© Copyright</p>
                     </div>
@@ -27,10 +28,11 @@ export function Footer() {
                     <div className="space-y-4 mt-8 md:mt-0">
                         <h3 className="text-xl font-semibold">Menu</h3>
                         <ul className="space-y-2">
-                            <li><a href="/about" className="text-gray-300 hover:text-white">About Us</a></li>
-                            <li><a href="/our team" className="text-gray-300 hover:text-white">Our Team</a></li>
-                            <li><a href="/sponsors" className="text-gray-300 hover:text-white">Sponsors</a></li>
-                            <li><a href="/FAQ" className="text-gray-300 hover:text-white">FAQ</a></li>
+                            <li><Link to="/" className="text-gray-300 hover:text-white">Home</Link></li>
+                            <li><Link to="/our team" className="text-gray-300 hover:text-white">Our Team</Link></li>
+                            <li><Link to="/sponsors" className="text-gray-300 hover:text-white">Sponsors</Link></li>
+                            <li><Link to="/FAQ" className="text-gray-300 hover:text-white">FAQ</Link></li>
+                            <li><Link to="/schedule" className="text-gray-300 hover:text-white">Schedule</Link></li>
                         </ul>
                     </div>
 

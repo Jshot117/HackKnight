@@ -10,6 +10,9 @@ import CodeForAll from "../assets/codeforall.png";
 import image1 from "../assets/Hackathon Gallery/DaniandSophia.jpg";
 import image2 from "../assets/Hackathon Gallery/JustinHandingSomething.jpg";
 import image3 from "../assets/Hackathon Gallery/WideShotManyPeople.jpg";
+import image4 from "../assets/Hackathon Gallery/LoydPoInterview.jpg";
+import image5 from "../assets/Hackathon Gallery/TeamWithExtraMonitor.jpg";
+import image6 from "../assets/Hackathon Gallery/TeamFocusedWorking.jpg";
 
 export function HomePage() {
   return (
@@ -49,11 +52,8 @@ export function HomePage() {
                   Welcome To our Spring Hack Knight
                 </h1>
                 <p className="text-sm md:text-xl text-clip overflow-hidden">
-                  Hack Knight is a 48-hour hackathon where students from all
-                  over the world come together to create innovative projects.
-                  This year, we are excited to announce that we are partnering
-                  with Code For All to bring you an even bigger and better
-                  event. Join us for a weekend of coding, learning, and fun!
+                  Hack Knight is a 36-hour hackathon where students come together to create innovative projects.
+                  We are a student run organization that is dedicated to providing a great event for students to learn and grow. Join us for a weekend of coding, learning, and fun!
                 </p>
               </div>
             </div>
@@ -72,6 +72,18 @@ export function HomePage() {
                     src: image3,
                     caption: "Wide shot of event at lunch time",
                   },
+                  {
+                    src: image4,
+                    caption: "Interview with participant",
+                  },
+                  {
+                    src: image5,
+                    caption: "Team enthusiastically working on their project",
+                  },
+                  {
+                    src: image6,
+                    caption: "Team focused on their project",
+                  }
                 ]}
               />
             </div>
