@@ -19,7 +19,7 @@ export function Footer() {
                             </h1>
                         </div>
                         <p className="text-gray-300">
-                            Hack Knight is a 48-hour hackathon where students from all over the world come together to create innovative projects. 
+                            Hack Knight is a 36-hour hackathon where students come together to create innovative projects. 
                         </p>
                         <p className="text-sm">© Copyright</p>
                     </div>

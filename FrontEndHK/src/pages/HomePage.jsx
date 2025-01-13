@@ -52,11 +52,8 @@ export function HomePage() {
                   Welcome To our Spring Hack Knight
                 </h1>
                 <p className="text-sm md:text-xl text-clip overflow-hidden">
-                  Hack Knight is a 48-hour hackathon where students from all
-                  over the world come together to create innovative projects.
-                  This year, we are excited to announce that we are partnering
-                  with Code For All to bring you an even bigger and better
-                  event. Join us for a weekend of coding, learning, and fun!
+                  Hack Knight is a 36-hour hackathon where students come together to create innovative projects.
+                  We are a student run organization that is dedicated to providing a great event for students to learn and grow. Join us for a weekend of coding, learning, and fun!
                 </p>
               </div>
             </div>
