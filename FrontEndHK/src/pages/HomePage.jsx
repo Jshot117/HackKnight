@@ -10,6 +10,9 @@ import CodeForAll from "../assets/codeforall.png";
 import image1 from "../assets/Hackathon Gallery/DaniandSophia.jpg";
 import image2 from "../assets/Hackathon Gallery/JustinHandingSomething.jpg";
 import image3 from "../assets/Hackathon Gallery/WideShotManyPeople.jpg";
+import image4 from "../assets/Hackathon Gallery/LoydPoInterview.jpg";
+import image5 from "../assets/Hackathon Gallery/TeamWithExtraMonitor.jpg";
+import image6 from "../assets/Hackathon Gallery/TeamFocusedWorking.jpg";
 
 export function HomePage() {
   return (
@@ -72,6 +75,18 @@ export function HomePage() {
                     src: image3,
                     caption: "Wide shot of event at lunch time",
                   },
+                  {
+                    src: image4,
+                    caption: "Interview with participant",
+                  },
+                  {
+                    src: image5,
+                    caption: "Team enthusiastically working on their project",
+                  },
+                  {
+                    src: image6,
+                    caption: "Team focused on their project",
+                  }
                 ]}
               />
             </div>
