@@ -27,6 +27,7 @@ export function OurTeamPage() {
               role={member.position}
               image={member.image_url}
               description={member.description}
+              link={member.link}
             />
           ))}
         </div>
