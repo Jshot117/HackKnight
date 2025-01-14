@@ -9,12 +9,12 @@ import { SponsorsPage } from "./pages/SponsorsPage.jsx";
 import { OurTeamPage } from "./pages/OurTeamPage.jsx";
 
 export const router = createBrowserRouter([
-    {path: "/", element: <HomePage />},
-    {path: "/about", element: <AboutPage />},
-    {path: "/FAQ", element : <FAQPage />},
-    {path: "/sponsors", element: <SponsorsPage />},
-    {path: "/our team", element: <OurTeamPage />},
-    {path: "/schedule", element: <SchedulePage />},
-    {path: "/prizes", element: <PrizesPage />},
-    {path: "/register", element: <RegistrationPage />}
-])
+  { path: "/", element: <HomePage /> },
+  { path: "/about", element: <AboutPage /> },
+  { path: "/FAQ", element: <FAQPage /> },
+  { path: "/sponsors", element: <SponsorsPage /> },
+  { path: "/our_team", element: <OurTeamPage /> },
+  { path: "/schedule", element: <SchedulePage /> },
+  { path: "/prizes", element: <PrizesPage /> },
+  { path: "/register", element: <RegistrationPage /> },
+]);
