@@ -21,7 +21,7 @@ export function HomePage() {
       <div className="min-h-screen bg-gradient-to-br from-blue-100 to-yellow-200 flex flex-col items-center justify-center">
         <div className="flex flex-col">
           <div className="items-center mt-32 pt-14 md:mt-16 md:pt-20 ">
-            <div className="flex flex-col md:flex-col mt-10 mb-10 justify-between items-center md:space-y-10">
+            <div className="flex flex-col md:flex-col mt-10 mb-10 justify-between items-center space-y-2 md:space-y-10">
               <Banner />
               {/* <img
                                 src={SwordLogo}
