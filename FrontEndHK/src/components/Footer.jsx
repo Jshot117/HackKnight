@@ -29,7 +29,7 @@ export function Footer() {
                         <h3 className="text-xl font-semibold">Menu</h3>
                         <ul className="space-y-2">
                             <li><Link to="/" className="text-gray-300 hover:text-white">Home</Link></li>
-                            <li><Link to="/our team" className="text-gray-300 hover:text-white">Our Team</Link></li>
+                            <li><Link to="/our_team" className="text-gray-300 hover:text-white">Our Team</Link></li>
                             <li><Link to="/sponsors" className="text-gray-300 hover:text-white">Sponsors</Link></li>
                             <li><Link to="/FAQ" className="text-gray-300 hover:text-white">FAQ</Link></li>
                             <li><Link to="/schedule" className="text-gray-300 hover:text-white">Schedule</Link></li>
