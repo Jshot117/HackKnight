@@ -19,26 +19,26 @@
       "image_url": "https://www.qc.cuny.edu/communications/wp-content/uploads/sites/21/2022/07/QC_PL_WhiteBG_RGB.png",
       "tier": 3,
       "sponsor_link": "https://www.qc.cuny.edu/",
-      "description": "Queens College description"
+      "description": "A four-year college of The City University of New York, Queens is a top-ranked U.S. public institution for our exceptional academics & diversity."
     },
     {
       "name": "Learning Commons",
       "image_url": "https://i.imgur.com/qE1aWF4.png",
       "tier": 2,
-      "sponsor_link": "",
-      "description": "Learning Commons Description"
+      "sponsor_link": "https://www.qc.cuny.edu/academics/qclc/",
+      "description": "The Learning Commons offers services to support students to reach their undergraduate and graduate degree goals, which includes peer tutoring, workshops, bootcamps, recitations and other programming to help students optimize their learning. Additionally, LC houses study spaces, computer labs, and a printing station."
     },
     {
       "name": "Office of the Associate Provost for Innovation and Student Success",
       "image_url": "https://i.imgur.com/fC2CNIe.png",
       "tier": 2,
-      "sponsor_link": "",
-      "description": "Associate Provost Description"
+      "sponsor_link": "https://www.qc.cuny.edu/student-success/",
+      "description": "The Queens College Student Success Team is dedicated to empowering students to achieve academic excellence, personal growth, and career readiness. We focus on fostering an inclusive and equitable environment, supporting every student’s unique journey from admission to meaningful employment."
     },
 
     {
       "name": "C4 Energy",
-      "image_url": "https://cdn.discordapp.com/attachments/1297355154177261619/1298315126545322106/C4Bev_C4SmartEnergy_LogoGradient_HERO.png?ex=67868a2f&is=678538af&hm=7a46b15477abbede3575ef0ce14bee67caa6b728321a46074000a1550c7f9ae7&",
+      "image_url": "https://mma.prnewswire.com/media/2014152/C4_Energy_Logo.jpg",
       "tier": 1,
       "sponsor_link": "https://cellucor.com/pages/c4-energy",
       "description": "c4 energy"
@@ -47,15 +47,15 @@
       "name": "S-Stem",
       "image_url": "https://i.imgur.com/3K4FaWm.png",
       "tier": 1,
-      "sponsor_link": "",
-      "description": ""
+      "sponsor_link": "https://www.qc.cuny.edu/nsfs-stem/",
+      "description": "In collaboration with the U.S. National Science Foundation (NSF) and the Computer Science Department at Queens College, the NSF S-STEM Scholarship is awarded to eligible junior and senior students who have completed their first and the second year CS courses or equivalent, with maximum amount of $5,000 each semester for up to 2 years."
     },
     {
-      "name": "Tier 1 sponsor",
-      "image_url": "",
+      "name": "Join Us",
+      "image_url": "https://png.pngtree.com/png-vector/20220722/ourmid/pngtree-join-us-design-element-png-image_6033051.png",
       "tier": 1,
-      "sponsor_link": "",
-      "description": "Tier 1 sponsor description"
+      "sponsor_link": "mailto:hack.knightqc@gmail.com",
+      "description": "Would you like to be a sponsor for Hack Knight, supporting CUNY student innovation and success? Email hack.knightqc@gmail.com"
     }
   ]
 }
