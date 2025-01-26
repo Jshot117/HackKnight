@@ -40,7 +40,8 @@ export function Footer() {
                     <div className="space-y-4 mt-8 md:mt-0">
                         <h3 className="text-xl font-semibold">Follow Us</h3>
                         <ul className="space-y-2">
-                            <li><a href="https://www.instagram.com/codeforall_qc/" className="text-gray-300 hover:text-white">Instagram</a></li>
+                            <li><a href="https://www.instagram.com/codeforall_qc/" className="text-gray-300 hover:text-white">Code For All Instagram</a></li>
+                            <li><a href="https://www.instagram.com/hack.qc/" className="text-gray-300 hover:text-white">Hack Knight Instagram</a></li>
                             <li><a href="https://discord.gg/bSCRynTmSF" className="text-gray-300 hover:text-white">Hack Knight Server</a></li>
                             <li><a href="https://discord.gg/ekh3SMDXu2" className="text-gray-300 hover:text-white">Code for All Server</a></li>
                         </ul>
