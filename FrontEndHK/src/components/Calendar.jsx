@@ -36,6 +36,7 @@ export function Calendar() {
                     { title: "Day Three", start: "2025-03-09" },
                     { title: "Breakfast", start: "2025-03-09 09:00"},
                     { title: "Hacking Ends", start: "2025-03-09 12:00" },
+                    { title: "Lunch", start: "2025-03-09 12:00", end: "2025-03-09 12:30"  },
                     { title: "Judging", start: "2025-03-09 12:30", end: "2025-03-09 15:00" },
                     { title: "Winners Announced", start: "2025-03-09 16:00" }
                 ]}
