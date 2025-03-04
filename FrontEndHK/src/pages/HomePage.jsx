@@ -21,7 +21,7 @@ export function HomePage() {
       <div className="min-h-screen bg-gradient-to-br from-blue-100 to-yellow-200 flex flex-col items-center justify-center">
         <div className="flex flex-col">
           <div className="items-center mt-32 pt-14 md:mt-16 md:pt-20 ">
-            <div className="flex flex-col md:flex-col mt-10 mb-10 justify-between items-center space-y-2 md:space-y-10">
+            <div className="flex flex-col items-center justify-center w-full mt-10 mb-10 space-y-2 md:space-y-10 text-center">
               <Banner />
               {/* <img
                                 src={SwordLogo}
@@ -52,8 +52,11 @@ export function HomePage() {
                   Welcome To our Spring Hack Knight
                 </h1>
                 <p className="text-sm md:text-xl text-clip overflow-hidden">
-                  Hack Knight is a 48-hour hackathon where students come together to create innovative projects.
-                  We are a student run organization that is dedicated to providing a great event for students to learn and grow. Join us for a weekend of coding, learning, and fun!
+                  Hack Knight is a 48-hour hackathon where students come
+                  together to create innovative projects. We are a student run
+                  organization that is dedicated to providing a great event for
+                  students to learn and grow. Join us for a weekend of coding,
+                  learning, and fun!
                 </p>
               </div>
             </div>
@@ -83,7 +86,7 @@ export function HomePage() {
                   {
                     src: image6,
                     caption: "Team focused on their project",
-                  }
+                  },
                 ]}
               />
             </div>
