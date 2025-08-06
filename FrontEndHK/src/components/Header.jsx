@@ -58,7 +58,7 @@ export function Header() {
             >
               Sponsors
             </NavItem>
-            <li>
+            {/* <li>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6cIO6YuTWfyfUZHcJx7c3UiRbZrRPaRJYRRusfFSgCDSVQ/viewform?usp=header"
                 className="flex items-center space-x-2 bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-4 py-2 rounded-lg transition-all duration-200 font-semibold"
@@ -68,7 +68,7 @@ export function Header() {
                 <FaUserPlus />
                 <span>Register</span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
