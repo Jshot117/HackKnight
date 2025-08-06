@@ -10,8 +10,8 @@ export function Register() {
           </h1>
         </div>
       </div>
-      <p className="">Registration is closed!</p>
-      <motion.button
+      <p className="text-lg">Registration is coming soon!</p>
+      {/* <motion.button
         className="md:text-xl font-bold rounded-xl mx-auto border-black border-5 bg-gray-600 p-5 text-gray-200 transform transition-all duration-300"
         disabled
         onClick={() => {
@@ -22,7 +22,7 @@ export function Register() {
         }}
       >
         REGISTER NOW
-      </motion.button>
+      </motion.button> */}
     </div>
   );
 }
