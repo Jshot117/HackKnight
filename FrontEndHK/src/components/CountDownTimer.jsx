@@ -7,7 +7,7 @@ export function CountDownTimer() {
   return (
     <div className="w-full flex flex-col items-center">
       <FlipClockCountdown
-        to={new Date("2025-03-07T16:00:00")}
+        to={new Date("2025-10-17T16:00:00")}
         digitBlockStyle={{
           width: '2.2rem', 
           height: "4rem",
