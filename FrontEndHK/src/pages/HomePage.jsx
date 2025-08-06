@@ -49,7 +49,7 @@ export function HomePage() {
 
               <div className="flex flex-col justify-center text-center md:text-left md:w-1/2">
                 <h1 className="mb-2 text-3xl md:text-5xl">
-                  Welcome To our Spring Hack Knight
+                  Welcome To our Fall Hack Knight
                 </h1>
                 <p className="text-sm md:text-xl text-clip overflow-hidden">
                   Hack Knight is a 48-hour hackathon where students come
