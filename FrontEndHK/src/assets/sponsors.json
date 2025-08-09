@@ -8,13 +8,6 @@
       "description": "Bloomberg is a global leader in business and financial information, delivering trusted data, news, and insights that bring transparency, efficiency, and fairness to markets. The company helps connect influential communities across the global financial ecosystem via reliable technology solutions that enable our customers to make more informed decisions and foster better collaboration."
     },
     {
-      "name": "Capital One",
-      "image_url": "https://static.cdnlogo.com/logos/c/11/capital-one.svg",
-      "tier": 4,
-      "sponsor_link": "https://www.capitalone.com/",
-      "description": "More than 25 years ago, Capital One revolutionized the credit card industry with data and technology. Today, we are one of the most widely recognized brands in banking — serving more than 100 million customers across a diverse set of businesses."
-    },
-    {
       "name": "Queens College",
       "image_url": "https://www.qc.cuny.edu/communications/wp-content/uploads/sites/21/2022/07/QC_PL_WhiteBG_RGB.png",
       "tier": 3,
@@ -58,3 +51,4 @@
     }
   ]
 }
+
