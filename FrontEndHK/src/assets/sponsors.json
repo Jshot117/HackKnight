@@ -10,9 +10,16 @@
     {
       "name": "Major League Hacking",
       "image_url": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg",
-      "tier": 4,
+      "tier": 3,
       "sponsor_link": "https://mlh.io/",
       "description": "Major League Hacking (MLH) is a global community of 100,000+ hackers, developers, and innovators. MLH is a non-profit organization that provides resources and opportunities for students to learn, grow, and build their careers in the tech industry."
+    },
+    {
+      "name": "CodePath",
+      "image_url": "https://imgur.com/8TSgg7S.png",
+      "tier": 3,
+      "sponsor_link": "https://codepath.org/",
+      "description": "CodePath is a non-profit organization that provides resources and opportunities for students to learn, grow, and build their careers in the tech industry."
     },
 
     {
