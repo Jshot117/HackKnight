@@ -46,6 +46,14 @@ export function Footer() {
                             <li><a href="https://discord.gg/ekh3SMDXu2" className="text-gray-300 hover:text-white">Code for All Server</a></li>
                         </ul>
                     </div>
+
+                    {/* Legal Section */}
+                    <div className="space-y-4 mt-8 md:mt-0">
+                        <h3 className="text-xl font-semibold">Legal</h3>
+                        <ul className="space-y-2">
+                            <li><a href="https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">MLH Code of Conduct</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

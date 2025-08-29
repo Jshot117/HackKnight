@@ -11,7 +11,8 @@ export function FAQPage() {
     {faqQuestion: "Will there be prizes?", answer: "Yes! There will be prizes and certificates for the top teams in each track"},
     {faqQuestion: "Can I work solo or in a team?", answer: "Hack Knight consists of teams of 2-4 people"},
     {faqQuestion: "What should I bring?", answer: "All you need to bring is your ID, laptop, and a charger!"},
-    {faqQuestion: "How can I support or sponsor Hack Knight?", answer: "You can contact us at codeforallqc@gmail.com!"}
+    {faqQuestion: "How can I support or sponsor Hack Knight?", answer: "You can contact us at codeforallqc@gmail.com!"},
+    {faqQuestion: "What is the Code of Conduct for this event?", answer: "Hack Knight follows the Major League Hacking (MLH) Code of Conduct to ensure a safe and inclusive environment for all participants. You can read the full MLH Code of Conduct at: https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md"}
   ]
 
   return (

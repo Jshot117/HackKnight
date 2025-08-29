@@ -15,7 +15,7 @@ export function Header() {
   return (
     <div className="bg-gradient-to-r from-slate-800 to-slate-900 p-2 shadow-lg fixed w-full top-0 z-50">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 ml-20 md:ml-24">
           <Link to="/about">
             <img
               src={SwordLogo}
