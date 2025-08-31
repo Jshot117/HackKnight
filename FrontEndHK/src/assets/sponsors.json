@@ -8,6 +8,21 @@
       "description": "Bloomberg is a global leader in business and financial information, delivering trusted data, news, and insights that bring transparency, efficiency, and fairness to markets. The company helps connect influential communities across the global financial ecosystem via reliable technology solutions that enable our customers to make more informed decisions and foster better collaboration."
     },
     {
+      "name": "Major League Hacking",
+      "image_url": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg",
+      "tier": 3,
+      "sponsor_link": "https://mlh.io/",
+      "description": "Major League Hacking (MLH) is a global community of 100,000+ hackers, developers, and innovators. MLH is a non-profit organization that provides resources and opportunities for students to learn, grow, and build their careers in the tech industry."
+    },
+    {
+      "name": "CodePath",
+      "image_url": "https://imgur.com/8TSgg7S.png",
+      "tier": 3,
+      "sponsor_link": "https://codepath.org/",
+      "description": "CodePath is a non-profit organization that provides resources and opportunities for students to learn, grow, and build their careers in the tech industry."
+    },
+
+    {
       "name": "Queens College",
       "image_url": "https://www.qc.cuny.edu/communications/wp-content/uploads/sites/21/2022/07/QC_PL_WhiteBG_RGB.png",
       "tier": 3,
