@@ -10,19 +10,18 @@ export function Register() {
           </h1>
         </div>
       </div>
-      <p className="text-lg">Registration is coming soon!</p>
-      {/* <motion.button
+      {/* <p className="text-lg">Registration is coming soon!</p> */}
+      <motion.button
         className="md:text-xl font-bold rounded-xl mx-auto border-black border-5 bg-gray-600 p-5 text-gray-200 transform transition-all duration-300"
-        disabled
         onClick={() => {
           window.open(
-            "https://docs.google.com/forms/d/e/1FAIpQLSfQ6cIO6YuTWfyfUZHcJx7c3UiRbZrRPaRJYRRusfFSgCDSVQ/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSf2nm5CsF0Q69T21WG_OPl274hn3-ghCfkebsCxoStX7h_zkA/viewform",
             "_blank"
           );
         }}
       >
         REGISTER NOW
-      </motion.button> */}
+      </motion.button>
     </div>
   );
 }
