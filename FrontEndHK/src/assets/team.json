@@ -3,7 +3,7 @@
     {
       "name": "Justin Espinal",
       "position": "Lead Organizer",
-      "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQH2uEhaQVsKDw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732151785315?e=1757548800&v=beta&t=tiXUCO1xNjgPJk-w9ttr7nzJBPjEjN05Z7FBHQbZTA4",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQH2uEhaQVsKDw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1732151785293?e=1761177600&v=beta&t=r3CeZKEQBlSTEMbwXNaTolI2QGMabWFsx3F4rvw7IeE",
       "description": "Founder of Hack Knight. Handles all logistics for the event leading up and during the event.",
       "link": "https://www.linkedin.com/in/justinespinal/"
     },
@@ -24,7 +24,7 @@
     {
       "name": "Sophia Yau",
       "position": "Assistant Logistics Organizer",
-      "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQFoSsr31g4KZQ/profile-displayphoto-shrink_800_800/B4EZbXrjPOHkAc-/0/1747375241520?e=1757548800&v=beta&t=4kHWiljKDNwnTtaWm0UgcTnbd-oUx5uCEWcdvVPKK7c",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQFoSsr31g4KZQ/profile-displayphoto-shrink_200_200/B4EZbXrjPOHkAY-/0/1747375241520?e=1761177600&v=beta&t=EWsV9A-LkvWP0m9Lrs5nFFkkpfPmpnEGeB41lbaKwXQ",
       "description": "Assist in all logistics for the event leading up and during the event.",
       "link": "https://www.linkedin.com/in/sophiayau/"
     },
@@ -45,9 +45,16 @@
     {
       "name": "Kerlyn Difo",
       "position": "Web Developer",
-      "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQE76KV1SYIWhw/profile-displayphoto-shrink_800_800/B4EZcxshSaHkAk-/0/1748885445942?e=1757548800&v=beta&t=W3JiBjU2IrJVoa2A6YxgtShkQ4KpGw32SM8u1LVEk0w",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQE76KV1SYIWhw/profile-displayphoto-shrink_200_200/B4EZcxshSaHkAg-/0/1748885445919?e=1761177600&v=beta&t=KH5Bv7F52uYHAppq93HzK0y8yqlLvtnuJYdni9Lyw04",
       "description": "Worked on the engineering team to help develop the website.",
       "link": "https://www.linkedin.com/in/kerlyn-difo-81059b23b/"
+    },
+    {
+      "name": "Poyao Tsui",
+      "position": "Marketing",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQG0k3zqrRffOw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1732397290316?e=1761177600&v=beta&t=ZuyVf4MeAPekDMtfiVczo8g0ATDqG3s2ykWzQ97gEBw",
+      "description": "Worked on marketing for hackknight.",
+      "link": "https://www.linkedin.com/in/poyaotsui/"
     },
     {
       "name": "Daniela Gallego",
