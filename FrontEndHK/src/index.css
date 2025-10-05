@@ -22,3 +22,18 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.fc-event {
+  background-color: #facc15 !important;
+  border-color: #facc15 !important;
+  color: #000000 !important;
+}
+
+.fc-event-main {
+  color: #000000 !important;
+}
+
+.fc-event:hover {
+  background-color: #eab308 !important;
+  border-color: #eab308 !important;
+}

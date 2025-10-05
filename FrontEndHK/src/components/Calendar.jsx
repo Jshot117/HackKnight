@@ -8,11 +8,13 @@ export function Calendar() {
             <FullCalendar
                 plugins={[timeGridPlugin]}
                 initialView="timeGrid"
-                hiddenDays={[1, 2, 3, 4]} // Hide Monday-Thursday
+                hiddenDays={[1, 2, 3, 4]}
                 visibleRange={{
-                    start: "2025-10-17", // Start on Friday (Oct 17, 2025)
-                    end: "2025-10-20",   // End after Sunday (non-inclusive Monday)
+                    start: "2025-10-17",
+                    end: "2025-10-20",
                 }}
+                slotMinTime="06:00:00"
+                slotMaxTime="25:00:00"
                 views={{
                     timeGridFourDay: {
                         type: 'timeGrid',
@@ -20,29 +22,37 @@ export function Calendar() {
                     },
                 }}
                 events={[
-                    { title: "Day One", start: "2025-03-07" },
-                    { title: "Check-in (Rosenthal Library)", start: "2025-03-07 10:00" },
-                    { title: "Opening Ceremony", start: "2025-03-07 11:00", end: "2025-03-07 12:00" },
-                    { title: "Hacking Starts", start: "2025-03-07 12:00" },
-                    { title: "Lunch", start: "2025-03-07 14:00" }, 
-                    { title: "Dinner", start: "2025-03-07 17:30" }, 
-                    { title: "Midnight Ramen", start: "2025-03-07 23:00" },
-                    { title: "Check-in Ends", start: "2025-03-07 18:00"},
-                    { title: "Day Two", start: "2025-03-08" },
-                    { title: "Breakfast", start: "2025-03-08 09:00"},
-                    { title: "Lunch", start: "2025-03-08 14:00" }, 
-                    { title: "Notion Workshop (Patio)", start: "2025-03-08 15:00" },
-                    { title: "Dinner", start: "2025-03-08 17:30" },
-                    { title: "Day Three", start: "2025-03-09" },
-                    { title: "Breakfast", start: "2025-03-09 09:00"},
-                    { title: "Hacking Ends", start: "2025-03-09 12:00" },
-                    { title: "Lunch", start: "2025-03-09 12:00", end: "2025-03-09 12:30"  },
-                    { title: "Judging", start: "2025-03-09 12:30", end: "2025-03-09 15:00" },
-                    { title: "Winners Announced", start: "2025-03-09 16:00" }
+                    { title: "Check-in begins (Rosental Library Lecture Hall)", start: "2025-10-17T10:00:00" },
+                    { title: "Opening Ceremony begins (Rosental Library Lecture Hall)", start: "2025-10-17T11:00:00", end: "2025-10-17T12:00:00" },
+                    { title: "Hacking Begins (Dining Hall)", start: "2025-10-17T12:00:00" },
+                    { title: "Bloomberg Interviews Start (Presidents Lounge & Kiely Hall)", start: "2025-10-17T12:00:00" },
+                    { title: "Lunch is served (Dining Hall patio room)", start: "2025-10-17T13:00:00" },
+                    { title: "CodePath 101 Info Session + Spring Preview (Dining Hall patio room)", start: "2025-10-17T14:00:00" },
+                    { title: "MLH Workshop: Intro to Google Ai Studio (Dining Hall patio room)", start: "2025-10-17T15:00:00" },
+                    { title: "Werewolf Game (Dining Hall patio room)", start: "2025-10-17T16:00:00" },
+                    { title: "DSA and Technical Interviews Workshop with Bloomberg (Dining Hall patio room)", start: "2025-10-17T17:00:00" },
+                    { title: "Get to know some Bloomberg Engineers Panel (Dining Hall patio room)", start: "2025-10-17T18:00:00" },
+                    { title: "Dinner is served (Dining Hall patio room)", start: "2025-10-17T19:00:00" },
+                    { title: "Notion Workshop (Dining Hall Patio Room)", start: "2025-10-17T20:00:00" },
+                    { title: "Midnight Ramen (Dining Hall)", start: "2025-10-17T23:00:00" },
+                    { title: "Breakfast is served (Dining Hall)", start: "2025-10-18T09:00:00" },
+                    { title: "Bloomberg Interviews Start (Presidents Lounge & Kiely Hall)", start: "2025-10-18T10:00:00" },
+                    { title: "Path-Port Quest (Dining Hall Patio room)", start: "2025-10-18T12:00:00" },
+                    { title: "Lunch is served (Dining Hall patio room)", start: "2025-10-18T13:00:00" },
+                    { title: "Bloomberg / Code Path Workshop (Dining Hall patio room)", start: "2025-10-18T14:00:00" },
+                    { title: "MLH Workshop: Intro to GitHub Copilot (Dining Hall patio room)", start: "2025-10-18T15:00:00" },
+                    { title: "Dinner is served (Dining Hall patio room)", start: "2025-10-18T18:00:00" },
+                    { title: "Midnight Ramen (Dining Hall)", start: "2025-10-18T23:00:00" },
+                    { title: "Check-in starts", start: "2025-10-19T09:00:00" },
+                    { title: "Hacking Ends (submissions hard deadline)", start: "2025-10-19T12:00:00" },
+                    { title: "Lunch", start: "2025-10-19T12:00:00" },
+                    { title: "Judging Begins (Dining Hall)", start: "2025-10-19T12:30:00" },
+                    { title: "Judging Ends", start: "2025-10-19T15:30:00" },
+                    { title: "Closing Ceremony (Rosenthal Library Lecture Hall)", start: "2025-10-19T16:00:00" }
                 ]}
                 headerToolbar={{
                     left: "",
-                    center: "title", // Show only the title in the header
+                    center: "title",
                     right: "",
                 }}
             />

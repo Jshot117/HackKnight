@@ -14,8 +14,8 @@ export function Header() {
 
   return (
     <div className="bg-gradient-to-r from-slate-800 to-slate-900 p-2 shadow-lg fixed w-full top-0 z-50">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="flex items-center space-x-4 ml-20 md:ml-24">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center md:items-center">
+        <div className="flex items-center space-x-4 ml-24 md:ml-28">
           <Link to="/about">
             <img
               src={SwordLogo}
@@ -28,8 +28,8 @@ export function Header() {
           </h1>
         </div>
 
-        <nav>
-          <ul className="flex flex-wrap justify-center md:flex-nowrap items-center space-x-2 md:space-x-6">
+        <nav className="w-full md:w-auto flex justify-end">
+          <ul className="flex flex-wrap justify-end md:flex-nowrap items-center space-x-2 md:space-x-6">
             <NavItem
               to="/FAQ"
               icon={<FaQuestionCircle />}
