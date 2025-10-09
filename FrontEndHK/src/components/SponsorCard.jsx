@@ -13,7 +13,7 @@ export function SponsorCard({
         <div className="h-[12rem] overflow-hidden flex items-center justify-center mb-4">
           <img
             src={image_url}
-            alt={`${name} Logo`}
+            // alt={`${name} Logo`}
             className="object-contain h-full w-full"
           />
         </div>
